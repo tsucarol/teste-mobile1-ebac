@@ -1,0 +1,19 @@
+{
+  "name": "exercicio-mod16-mobile1",
+  "version": "1.0.0",
+  "description": "Exercício de conclusão do módulo 16 (mobile)  da EBAC",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.27.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.27.0",
+    "@wdio/mocha-framework": "^8.27.0"
+  }
+}
